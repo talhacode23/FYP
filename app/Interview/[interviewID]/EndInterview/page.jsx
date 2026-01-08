@@ -19,6 +19,7 @@ const EndInterview = ({ params }) => {
       .where(eq(UserAnswer.MockIdREF, params.interviewID))
       .orderBy(UserAnswer.id)
 
+
     console.log(FeedBackResult)
 
     const count = FeedBackResult.length || 1
@@ -47,7 +48,7 @@ const EndInterview = ({ params }) => {
       ) : (
         <>
           <div className="px-6 py-8">
-            {/* Header Section */}
+            {/* HeaderSection */}
             <div className="max-w-4xl mx-auto text-center mb-8">
               <div className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                 <h1 className="text-4xl font-bold mb-4">Interview Complete!</h1>
