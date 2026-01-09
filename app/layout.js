@@ -16,8 +16,8 @@ export default function RootLayout({ children }) {
     <ClerkProvider
       publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
     >
-      <html lang="en">
-        <body className={inter.className}>
+      <html lang="en" suppressHydrationWarning>
+        <body className={inter.className} suppressHydrationWarning>
           <Toaster />
           <Header />
           {children}
