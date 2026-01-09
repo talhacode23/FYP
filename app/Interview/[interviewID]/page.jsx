@@ -33,7 +33,7 @@ const INTERVIEW = ({ params }) => {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-            <h1 className="text-5xl font-bold mb-4">Let's Start Your Interview</h1>
+            <h1 className="text-5xl font-bold mb-4">Let Start Your Interview</h1>
           </div>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
             Review the interview details and enable your camera to begin the AI-powered mock interview
@@ -88,7 +88,7 @@ const INTERVIEW = ({ params }) => {
               </div>
               <p className="text-gray-300 text-sm leading-relaxed">
                 Enable WebCam and Microphone to begin your AI-generated interview. The interview will consist 
-                of 5 questions, and at the end, you'll receive a detailed report showing your performance 
+                of 5 questions, and at the end, you will receive a detailed report showing your performance 
                 metrics and personalized feedback.
               </p>
             </div>
